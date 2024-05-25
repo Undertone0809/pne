@@ -112,13 +112,13 @@ frozenlist = ">=1.1.0"
 
 [[package]]
 name = "annotated-types"
-version = "0.6.0"
+version = "0.7.0"
 description = "Reusable constraint types to use with typing.Annotated"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "annotated_types-0.6.0-py3-none-any.whl", hash = "sha256:0641064de18ba7a25dee8f96403ebc39113d0cb953a01429249d5c7564666a43"},
-    {file = "annotated_types-0.6.0.tar.gz", hash = "sha256:563339e807e53ffd9c267e99fc6d9ea23eb8443c08f112651963e24e22f84a5d"},
+    {file = "annotated_types-0.7.0-py3-none-any.whl", hash = "sha256:1f02e8b43a8fbbc3f3e0d4f0f4bfc8131bcb4eebe8849b8e5c773f3a1c582a53"},
+    {file = "annotated_types-0.7.0.tar.gz", hash = "sha256:aff07c09a53a08bc8cfccb9c85b05f1aa9a2a6f23728d790723543408344ce89"},
 ]
 
 [package.dependencies]
@@ -555,13 +555,13 @@ socks = ["socksio (==1.*)"]
 
 [[package]]
 name = "huggingface-hub"
-version = "0.23.0"
+version = "0.23.1"
 description = "Client library to download and publish models, datasets and other repos on the huggingface.co hub"
 optional = false
 python-versions = ">=3.8.0"
 files = [
-    {file = "huggingface_hub-0.23.0-py3-none-any.whl", hash = "sha256:075c30d48ee7db2bba779190dc526d2c11d422aed6f9044c5e2fdc2c432fdb91"},
-    {file = "huggingface_hub-0.23.0.tar.gz", hash = "sha256:7126dedd10a4c6fac796ced4d87a8cf004efc722a5125c2c09299017fa366fa9"},
+    {file = "huggingface_hub-0.23.1-py3-none-any.whl", hash = "sha256:720a5bffd2b1b449deb793da8b0df7a9390a7e238534d5a08c9fbcdecb1dd3cb"},
+    {file = "huggingface_hub-0.23.1.tar.gz", hash = "sha256:4f62dbf6ae94f400c6d3419485e52bce510591432a5248a65d0cb72e4d479eb4"},
 ]
 
 [package.dependencies]
@@ -636,13 +636,13 @@ i18n = ["Babel (>=2.7)"]
 
 [[package]]
 name = "litellm"
-version = "1.37.16"
+version = "1.38.4"
 description = "Library to easily interface with LLM API providers"
 optional = false
 python-versions = "!=2.7.*,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,!=3.6.*,!=3.7.*,>=3.8"
 files = [
-    {file = "litellm-1.37.16-py3-none-any.whl", hash = "sha256:b3250832ff8578d906ee9230ebaf13b787f139de705d4d397f87a0ce3ee57392"},
-    {file = "litellm-1.37.16.tar.gz", hash = "sha256:c90c826a16d154c755f73a828b84b11cef9fc0891ff322023ea247b3c7fcdc1f"},
+    {file = "litellm-1.38.4-py3-none-any.whl", hash = "sha256:eb76012a1789f62b7079c634e415259b898d8c9583132d51bad2640e0bc37b7d"},
+    {file = "litellm-1.38.4.tar.gz", hash = "sha256:83bd21ccafc5bd4ceec2c6f417384f90a747d2b53440c72b3cf7870adac90547"},
 ]
 
 [package.dependencies]
@@ -650,7 +650,7 @@ aiohttp = "*"
 click = "*"
 importlib-metadata = ">=6.8.0"
 jinja2 = ">=3.1.2,<4.0.0"
-openai = ">=1.0.0"
+openai = ">=1.27.0"
 python-dotenv = ">=0.2.0"
 requests = ">=2.31.0,<3.0.0"
 tiktoken = ">=0.4.0"
@@ -909,13 +909,13 @@ files = [
 
 [[package]]
 name = "openai"
-version = "1.30.1"
+version = "1.30.3"
 description = "The official Python library for the openai API"
 optional = false
 python-versions = ">=3.7.1"
 files = [
-    {file = "openai-1.30.1-py3-none-any.whl", hash = "sha256:c9fb3c3545c118bbce8deb824397b9433a66d0d0ede6a96f7009c95b76de4a46"},
-    {file = "openai-1.30.1.tar.gz", hash = "sha256:4f85190e577cba0b066e1950b8eb9b11d25bc7ebcc43a86b326ce1bfa564ec74"},
+    {file = "openai-1.30.3-py3-none-any.whl", hash = "sha256:f88119c8a848998be533c71ab8aa832446fa72b7ddbc70917c3f5886dc132051"},
+    {file = "openai-1.30.3.tar.gz", hash = "sha256:8e1bcdca2b96fe3636ab522fa153d88efde1b702d12ec32f1c73e9553ff93f45"},
 ]
 
 [package.dependencies]
@@ -957,13 +957,13 @@ wcwidth = "*"
 
 [[package]]
 name = "promptulate"
-version = "1.16.5"
-description = "A powerful LLM Application development framework."
+version = "1.16.6"
+description = "🚀Large language model automation and Autonomous Language Agents development framework. Build your LLM Agent Application in a pythonic way."
 optional = false
 python-versions = "<4.0,>=3.8.1"
 files = [
-    {file = "promptulate-1.16.5-py3-none-any.whl", hash = "sha256:83d609062ab56e0a48de4c5c9a8d9597c1cb0fddbace7623ccb79329977bdb59"},
-    {file = "promptulate-1.16.5.tar.gz", hash = "sha256:8abde54ccb7a566b008fdad5b5842e08198ba2d09086c4741c97b0cab88a0244"},
+    {file = "promptulate-1.16.6-py3-none-any.whl", hash = "sha256:ecd15fb02b32df61aed6ca294cc25a3247e58bb39b5f8a35f3508d9742e3e12c"},
+    {file = "promptulate-1.16.6.tar.gz", hash = "sha256:11dbb37a8c5c1cb7d1a68ff4f921f0f4337532dc77b099b1c57af3dc209ff42b"},
 ]
 
 [package.dependencies]
@@ -1266,13 +1266,13 @@ files = [
 
 [[package]]
 name = "requests"
-version = "2.31.0"
+version = "2.32.2"
 description = "Python HTTP for Humans."
 optional = false
-python-versions = ">=3.7"
+python-versions = ">=3.8"
 files = [
-    {file = "requests-2.31.0-py3-none-any.whl", hash = "sha256:58cd2187c01e70e6e26505bca751777aa9f2ee0b7f4300988b709f44e013003f"},
-    {file = "requests-2.31.0.tar.gz", hash = "sha256:942c5a758f98d790eaed1a29cb6eefc7ffb0d1cf7af05c3d2791656dbd6ad1e1"},
+    {file = "requests-2.32.2-py3-none-any.whl", hash = "sha256:fc06670dd0ed212426dfeb94fc1b983d917c4f9847c863f313c9dfaaffb7c23c"},
+    {file = "requests-2.32.2.tar.gz", hash = "sha256:dd951ff5ecf3e3b3aa26b40703ba77495dab41da839ae72ef3c8e5d8e2433289"},
 ]
 
 [package.dependencies]
@@ -1513,13 +1513,13 @@ telegram = ["requests"]
 
 [[package]]
 name = "typing-extensions"
-version = "4.11.0"
+version = "4.12.0"
 description = "Backported and Experimental Type Hints for Python 3.8+"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "typing_extensions-4.11.0-py3-none-any.whl", hash = "sha256:c1f94d72897edaf4ce775bb7558d5b79d8126906a14ea5ed1635921406c0387a"},
-    {file = "typing_extensions-4.11.0.tar.gz", hash = "sha256:83f085bd5ca59c80295fc2a82ab5dac679cbe02b9f33f7d83af68e241bea51b0"},
+    {file = "typing_extensions-4.12.0-py3-none-any.whl", hash = "sha256:b349c66bea9016ac22978d800cfff206d5f9816951f12a7d0ec5578b0a819594"},
+    {file = "typing_extensions-4.12.0.tar.gz", hash = "sha256:8cbcdc8606ebcb0d95453ad7dc5065e6237b6aa230a31e81d0f440c30fed5fd8"},
 ]
 
 [[package]]
@@ -1671,4 +1671,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "jaraco.test", "more
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8.1,<4.0"
-content-hash = "9081ba2b2fde9972089c2cb80ae17080ca2a5192833355ff5f230f1b0035a4da"
+content-hash = "e53f994c76d8f3f8f4efb5640370d465447f0655483a3dfc3a636c3978addab5"

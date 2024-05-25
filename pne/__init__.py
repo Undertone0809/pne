@@ -17,7 +17,7 @@ from promptulate.schema import (
     SystemMessage,
     UserMessage,
 )
-from promptulate.tools.base import BaseTool, Tool, define_tool
+from promptulate.tools.base import BaseTool, Tool, ToolTypes, define_tool
 from promptulate.utils.logger import enable_log
 from promptulate.utils.string_template import StringTemplate
 
@@ -41,6 +41,7 @@ _tool_fields = [
     "Tool",
     "define_tool",
     "BaseTool",
+    "ToolTypes",
 ]
 
 _agent_fields = [

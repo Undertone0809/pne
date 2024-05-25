@@ -5,7 +5,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "pne"
-version = "1.0.0"
+version = "1.0.1"
 description = "🚀 Simplified promptulate call. Now you can use `import pne` to call promptulate."
 readme = "README.md"
 authors = ["Undertone0809 <zeeland4work@gmail.com>"]
@@ -28,7 +28,7 @@ keywords = [
 
 [tool.poetry.dependencies]
 python = ">=3.8.1,<4.0"
-promptulate = "^1.16.5"
+promptulate = "^1.16.6"
 
 [tool.poetry.dev-dependencies]
 ruff = "^0.1.6"
