@@ -1,5 +1,6 @@
 import warnings
 
+from promptulate import beta
 from promptulate.agents.assistant_agent.agent import AssistantAgent
 from promptulate.agents.base import BaseAgent
 from promptulate.agents.planner.planner import Planner
@@ -52,12 +53,14 @@ _agent_fields = [
     "Planner",
 ]
 
+
 __all__ = [
     *_util_fields,
     *_schema_fields,
     *_llm_fields,
     *_tool_fields,
     *_agent_fields,
+    "beta",
 ]
 
 warnings.filterwarnings("always", category=DeprecationWarning)
